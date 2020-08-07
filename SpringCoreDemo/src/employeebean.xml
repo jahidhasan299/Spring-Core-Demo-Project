@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+	http://www.springframework.org/schema/beans/spring-beans.xsd
+	http://www.springframework.org/schema/context
+	http://www.springframework.org/schema/beans/spring-context.xsd">
+	<bean id="emp1" class="co.jack.Employee">
+	<property name="eid" value="102" />
+	<property name="ename" value="jennie" />
+	<property name="eaddress" value="New jersey" />
+	</bean>
+	
+	<bean id="emp2" class="co.jack.Employee">
+	<property name="eid" value="103" />
+	<property name="ename" value="jacky" />
+	<property name="eaddress" value="New London" />
+	</bean>
+
+
+</beans>
